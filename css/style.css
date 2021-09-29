@@ -1,0 +1,67 @@
+     
+/*you can change you table style here*/  
+#verificationTbl {
+	background-color: #F5F5F5;
+	color: black;
+	padding: 5px;
+	width: 900px;
+	font-size:12px;
+	font-family:cambria;
+	
+}
+
+#th{
+	background-color: #000;
+	color: #FFF;
+	padding: 10px; 
+	border-bottom: thin solid #000;  
+}
+
+.data-tr{
+	background-color: #FFF;
+	font-size:12px; 
+	color:#360; 
+	font-weight:bold; 
+	background-color:#FFF;
+	border-bottom: thin solid #000;
+}
+
+.data-tr:hover {
+	background-color: #DDFED3;
+	color: black;
+	padding: 5px; 
+	border-bottom: thin solid #000;
+	   
+}
+
+.data-tr td{       
+	padding: 4px;            
+	margin: 0px;         
+}
+
+/* you can change page navigation here*/
+.page-nav{
+	margin: 10px 0 0 0;
+	padding: 8px;
+}
+
+.page-nav a{
+	border: none;
+	padding: 8px;
+	text-decoration:none;
+	font-family:cambria;
+	background-color: #DDFED3;
+	border: thin solid #360;
+	color: #000;
+}
+
+.page-nav a:hover{
+	border: thin solid #360;
+	background-color: #360;
+	color: #FFF;
+}
+
+/*this is the style for selected page number*/
+.page_link{
+	padding: 8px;
+}
